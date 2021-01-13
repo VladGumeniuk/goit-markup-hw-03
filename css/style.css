@@ -43,7 +43,7 @@ ul {
 /* HEADER */
 
 .line-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo-title {
@@ -331,6 +331,7 @@ ul {
   margin-right: 8px;
   padding: 6px 22px;
 
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;

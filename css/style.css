@@ -42,6 +42,10 @@ ul {
 
 /* HEADER */
 
+.line-header {
+  border: 1px solid #ececec;
+}
+
 .logo-title {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -65,8 +69,6 @@ ul {
 .main-nav {
   display: flex;
   align-items: center;
-
-  border: 1px solid #ececec;
 }
 
 .nav-display {
@@ -231,6 +233,12 @@ ul {
 .team-container {
   margin-right: 30px;
   text-align: center;
+
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-position {
@@ -277,9 +285,13 @@ ul {
   text-decoration: none;
 }
 
+.project-info {
+  padding: 20px 24px;
+}
+
 .project-title {
-  margin: 20px 0 4px 0;
-  padding: 0 24px;
+  margin: 0;
+  margin-bottom: 4px;
 
   font-weight: 700;
   font-size: 18px;
@@ -292,7 +304,6 @@ ul {
 
 .project-suptitle {
   margin: 0;
-  padding: 0 24px;
 
   font-weight: 400;
   font-size: 16px;
@@ -308,10 +319,6 @@ ul {
   margin-bottom: 50px;
   justify-content: center;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-
   color: #212121;
 }
 
@@ -323,6 +330,10 @@ ul {
   display: inline-block;
   margin-right: 8px;
   padding: 6px 22px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 
   color: #212121;
 

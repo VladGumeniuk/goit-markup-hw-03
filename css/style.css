@@ -341,6 +341,7 @@ ul {
   border: none;
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .button-nav:hover,
